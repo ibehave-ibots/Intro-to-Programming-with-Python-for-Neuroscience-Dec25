@@ -1,3 +1,9 @@
+Run this:
+
+```
+pixi config set tls-no-verify true
+```
+
 Most software we are using comes with a list of dependencies which, in turn, have their own dependencies. This means that any given piece of software requires a specific environment of other packages to function properly.
 The larger the tree of dependencies, the more likely it is that two pieces of software have a version conflict because they require different versions of the same dependency.
 This can be prevented by using virtual environments.
