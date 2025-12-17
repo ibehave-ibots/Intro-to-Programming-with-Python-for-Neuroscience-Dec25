@@ -1,1 +1,6 @@
 *(Solutions)*
+# pixi environments
+.pixi
+*.egg-info
+spikes.npy
+Sue_2x_3000_40_-46.tif

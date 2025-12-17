@@ -1,0 +1,17 @@
+[workspace]
+authors = ["obi <ole.bialas@posteo.de>"]
+channels = ["conda-forge"]
+name = "Intro-to-Programming-with-Python-for-Neuroscience-Dec25"
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+install-kernel = "python -m ipykernel install --user --name intro2py"
+
+[dependencies]
+python = "==3.12"
+ipykernel = ">=7.1.0,<8"
+numpy = ">=2.3.5,<3"
+pyocclient = ">=0.6,<0.7"
+tifffile = ">=2025.12.12,<2026"
+matplotlib = ">=3.10.8,<4"
